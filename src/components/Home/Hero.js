@@ -35,7 +35,7 @@ in one place
             <h5 className="text-[#667085] mb-7 md:text-[20px] text-[12px] md:leading-[30px] max-w-[890px] font-[400]  ">
               Whether you're tracking your health progress, communicating with
               your healthcare provider, or ensuring that your family's health is
-              in good hands, Medisrupt is tailored with caregiver and receivers
+              in good hands, Medipt is tailored with caregiver and receivers
               in mind, all healthcare need just in one place.
             </h5>
             <div className="md:flex hidden gap-8 pb-20 mb-20 ">

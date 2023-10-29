@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { Link } from "react-router-dom";
-import logo from '../../assets/Frame.svg'
+import logo from '../../assets/Medipt.svg'
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className=" flex px-5 md:px-20 justify-between items-center w-full h-full">
       <div className="  flex  text-xl md:text-3xl">
         <a href="/">
-          <img className="md:w-[200px] md:h-[200px] w-[100px] h-[100px] " src={logo} alt="/" />
+          <img className="md:w-[150px] md:h-[150px] w-[100px] h-[100px] " src={logo} alt="/" />
         </a>
       </div>
       

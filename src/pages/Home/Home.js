@@ -64,7 +64,7 @@ const Home = () => {
                   <h5 className="text-[#667085] md:text-[20px] text-[18px] font-[400]  ">
                     With mobile access to patient information, healthcare
                     providers can make decisions and provide care from anywhere,
-                    at any time. Medisrupt helps to enhance the patient
+                    at any time. Medipt helps to enhance the patient
                     experience and provides peace of mind for both patients and
                     providers.
                   </h5>
@@ -128,7 +128,7 @@ const Home = () => {
             <span className="bg-gray-300 px-1 rounded-full">experts</span>,
             powered by{" "}
             <span className="bg-green-100 px-1 rounded-full">humans</span> like
-            you. Medisrupt lets you maintain your{" "}
+            you. Medipt lets you maintain your{" "}
             <span className="bg-pink-100 px-1 rounded-full">health</span> best
             and gives you absolute{" "}
             <span className="bg-gray-300 px-1 rounded-full">control.</span>
@@ -155,7 +155,7 @@ const Home = () => {
                 </h5>
                 <div className="flex">
                   <h6 className="max-w-[388px] text-[18px] font-[400] text-[#667085] ">
-                    With Medisrupt, data management becomes easier and more
+                    With Medipt, data management becomes easier and more
                     efficient. All patient information is stored in one central
                     location, allowing for easy access and retrieval by
                     authorized healthcare providers.
@@ -233,7 +233,7 @@ const Home = () => {
            <ImageFirst
               icon={mm}
               text="1. For Health institutions"
-              subText="With Medisrupt you can streamline processes, increase efficiency, and provide better care for patients - our platform is the ultimate solution for any health institution."
+              subText="With Medipt you can streamline processes, increase efficiency, and provide better care for patients - our platform is the ultimate solution for any health institution."
             />
            
             <ImageFirst
@@ -255,7 +255,7 @@ const Home = () => {
               1. For Health institutions
               </h3>
               <h6 className="text-[#667085] py-3 text-[14px] font-[400] max-w-[334px] md:max-w-[306px] ">
-              With Medisrupt you can streamline processes, increase efficiency, and provide better care for patients - our platform is the ultimate solution for any health institution.
+              With Medipt you can streamline processes, increase efficiency, and provide better care for patients - our platform is the ultimate solution for any health institution.
               </h6>
              
             </div>
@@ -321,7 +321,7 @@ const Home = () => {
                     <button>Partner with us</button>
                   </div>
                   <h6 className="text-[#FFFFFF] text-[16px] ">
-                    © 2023 Medisrupt.
+                    © 2023 Medipt.
                   </h6>
                 </div>
                 <div className="w-full">
@@ -381,7 +381,7 @@ const Home = () => {
                   </div>
                   <div className="flex justify-center mb-20">
                     <h6 className="text-[#FFFFFF] text-[16px] ">
-                      © 2023 Medisrupt.
+                      © 2023 Medipt.
                     </h6>
                   </div>
                 </div>
