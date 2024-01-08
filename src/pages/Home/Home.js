@@ -2,20 +2,20 @@ import React from "react";
 import Navbar from "../../components/Header/Navbar";
 import Hero from "../../components/Home/Hero";
 import ImageFirst from "../../components/Home/ImageFirst";
-import man from "../../assets/Mask group (6).svg";
-import man2 from "../../assets/Mask group (11).svg";
-import i from "../../assets/Medipt hero.png";
-import i2 from "../../assets/Medipt hero.png";
-import appoint from "../../assets/Mask group (12).svg";
-import appoint2 from "../../assets/Mask group (13).svg";
-import pres from "../../assets/Mask group (1366).svg";
-import pres2 from "../../assets/Mask group (1322).svg";
-import secure from "../../assets/Mask group (113).svg";
-import secure2 from "../../assets/Mask group (1365).svg";
-import mob from "../../assets/Mask group (1376).svg";
-import mob2 from "../../assets/Mask group (103).svg";
-import report from "../../assets/Mask group (13000).svg";
-import report2 from "../../assets/Mask group (1398767).svg";
+import man from "../../assets/Picture 1.png";
+import man2 from "../../assets/Picture 1.png";
+import i from "../../assets/Hero section.png";
+import i2 from "../../assets/Hero section.png";
+import appoint from "../../assets/Picture 2.png";
+import appoint2 from "../../assets/Picture 2.png";
+import pres from "../../assets/Picture 3.png";
+import pres2 from "../../assets/Picture 3.png";
+import secure from "../../assets/picture 4.png";
+import secure2 from "../../assets/picture 4.png";
+import mob from "../../assets/Picture 5.png";
+import mob2 from "../../assets/Picture 5.png";
+import report from "../../assets/picture 6.png";
+import report2 from "../../assets/picture 6.png";
 import woman from "../../assets/Mask group (13353).svg";
 import doc from "../../assets/Mask group (1321).svg";
 import sm from "../../assets/Group 76.svg";
@@ -26,10 +26,14 @@ import fullDoc from "../../assets/Group 49.svg";
 import mm from "../../assets/Mask grouop (13).svg";
 import org from "../../assets/Mask gropup (13).svg";
 import ind from "../../assets/Mask group (1390).svg";
-import medi from "../../assets/Framehed.svg";
+import medi from "../../assets/Group 93.png";
+import medii from "../../assets/Group 93.svg";
 import icon11 from "../../assets/Mask group (1355).svg";
 import icon12 from "../../assets/Mask group (1300).svg";
 import icon13 from "../../assets/Mask group (1563).svg";
+import img1 from "../../assets/image 37.png";
+import img2 from "../../assets/image 34.png";
+import img3 from "../../assets/image 36.png";
 import TextFirst from "../../components/Home/TextFirst";
 import {
   GrInstagram,
@@ -53,9 +57,9 @@ const Home = () => {
         <div className="max-w-[1200px] w-full">
           <div className="md:py-10 h-full px-5 md:px-0 md:mx-32">
             <div className="sm:flex  hidden justify-center">
-              <img className=" absolute mt-[120px] px-5 top-3/4 " src={i} alt="/" />
+              <img className=" absolute xl:mt-[160px] md:mt-[120px] px-5 top-3/4 " src={i} alt="/" />
             </div>
-            <div className="sm:mt-[396px] mt-[200px] relative flex justify-center text-center ">
+            <div className="sm:mt-[396px]  relative flex justify-center text-center ">
               <div>
                 <h3 className="text-[#0B4747] md:text-[48px] text-[30px] font-[700]  ">
                   All in your hands
@@ -135,7 +139,7 @@ const Home = () => {
           </h5>
         </div>
         <div className="flex justify-center">
-          <button className="flex justify-center text-center text-white text-[16px] bg-[#FF3E49] rounded-[8px] px-20 py-6">
+          <button className="flex justify-center text-center text-white text-[16px] bg-[#0F9F9F] rounded-[8px] px-16 py-3">
             Book a demo
           </button>
         </div>
@@ -217,7 +221,15 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <h4 className="text-[#0B4747] md:block hidden text-[30px] md:text-[48px] font-[700] text-center ">
+              Healthcare for everyone
+            </h4>
+            <div className="flex py-20 md:block hidden w-full">
+            <img src={img1} className='' alt="/" />
+            <img src={img2} className='' alt="/" />
+            <img src={img3} className='' alt="/" />
 
+            </div>
  <div className="w-full">
  <img src={fullDoc} className='w-full' alt="/" />
 
@@ -225,11 +237,9 @@ const Home = () => {
       <div className="flex justify-center">
         <div className="max-w-[1200px] w-full">
           <div className="pt-[120px] pb-[100px] px-5 md:px-0 md:mx-32">
-            <h4 className="text-[#0B4747] text-[30px] md:text-[48px] font-[700] text-center ">
-              Healthcare for everyone
-            </h4>
+           
 
-           <div className="md:block hidden">
+           {/* <div className="md:block hidden">
            <ImageFirst
               icon={mm}
               text="1. For Health institutions"
@@ -286,21 +296,22 @@ const Home = () => {
 
             </div>
           </div>
-        </div>
-            <h4 className="pt-10 text-center text-[#0B4747] md:text-[48px] text-[30px] font-[700] pb-10 ">
+        </div> */}
+            <h4 className=" text-center text-[#0B4747] md:text-[48px] text-[30px] font-[700]  ">
               Experience the Power of Customized Healthcare now!
             </h4>
-            <div className="flex justify-center text-center">
+            {/* <div className="flex justify-center text-center">
               <button className="flex justify-center text-center text-white text-[16px] bg-[#FF3E49] rounded-[8px] px-20 py-6">
                 Book a demo
               </button>
-            </div>
+            </div> */}
           </div>
           <div className=" px-5 md:px-0 md:mx-32">
             <div className="bg-[#0F9F9F] rounded-t-[50px] md:rounded-t-[100px] md:p-[70px] p-[40px] w-full">
               <div className="md:flex hidden justify-between">
                 <div className="w-full">
-                  <img src={medi} alt="/" />
+                  <img src={medi} className="md:block hidden" alt="/" />
+                  <img src={medii} className="block md:hidden" alt="/" />
                   <div className="flex my-16 gap-6">
                     <div className="text-white">
                       <GrLinkedinOption className="w-8 h-8" />
@@ -358,7 +369,7 @@ const Home = () => {
 
                 <div className="w-full">
                   <div className="flex justify-center">
-                    <img src={medi} className=" w-[180px] h-[180px]" alt="/" />
+                    <img src={medii} className=" w-[180px] h-[180px]" alt="/" />
                   </div>
                   <div className="flex justify-center mb-8 -mt-10 gap-6">
                     <div className="text-white">
