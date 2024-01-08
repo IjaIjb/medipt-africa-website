@@ -27,7 +27,7 @@ const Navbar = () => {
       <div>
          <button
             target="_blank"
-            className="border-[#0F9F9F]  w-full px-2 md:px-16 rounded-[8px] py-2 md:py-3 border-[1px] text-[#819B9B] bg-[#F0FFFF] "
+            className="border-[#0F9F9F] text-[16px] font-[600] w-full px-2 md:px-16 rounded-[8px] py-2 md:py-3 border-[1px] text-[#819B9B] bg-[#F0FFFF] "
             // whileHover={{
             //   scale: 1.1,
             //   textShadow: "0px 0px 8px rgb(255,255,255)",

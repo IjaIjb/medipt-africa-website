@@ -19,6 +19,9 @@ import report2 from "../../assets/picture 6.png";
 import woman from "../../assets/Mask group (13353).svg";
 import doc from "../../assets/Mask group (1321).svg";
 import sm from "../../assets/Group 76.svg";
+import micro from "../../assets/image 39.png";
+import futa from "../../assets/image 40.png";
+import byte from "../../assets/Byte Logo 1.png";
 import security from "../../assets/Group 75.svg";
 import improve from "../../assets/Group 77.svg";
 import icrease from "../../assets/Group 78.svg";
@@ -143,6 +146,13 @@ const Home = () => {
             Book a demo
           </button>
         </div>
+        <div className="flex justify-center items-center gap-8 pt-16">
+      <img className="" src={micro} alt="/" />
+      <img className="" src={futa} alt="/" />
+      <img className="" src={byte} alt="/" />
+        
+        </div>
+
       </div>
       <img className="w-full" src={doc} alt="/" />
 
@@ -224,7 +234,7 @@ const Home = () => {
       <h4 className="text-[#0B4747] md:block hidden text-[30px] md:text-[48px] font-[700] text-center ">
               Healthcare for everyone
             </h4>
-            <div className="flex py-20 md:block hidden w-full">
+            <div className="md:flex py-20 hidden ">
             <img src={img1} className='' alt="/" />
             <img src={img2} className='' alt="/" />
             <img src={img3} className='' alt="/" />
